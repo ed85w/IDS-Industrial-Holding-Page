@@ -44,7 +44,8 @@ section.content {
     display: flex;
     justify-content: center;
     min-width: 100%;
-    min-height: 70vh;
+    height: 70vh;
+    min-height: 392px;
     background: 
         /* top, transparent red */ 
         linear-gradient(
@@ -54,7 +55,7 @@ section.content {
         /* bottom, image */
         url(./img/Greece-Refinery.jpg);
     background-size: cover;
-    padding: 28% 18% 10% 18%;
+    padding: 25% 18% 5% 18%;
 }
 
 div.content-container {
@@ -98,7 +99,7 @@ div.contact-container {
     display: flex;
     justify-content: center;
     width: 100%;
-    bottom: 0;
+    bottom: 5px;
     left: 0;
     text-align: center;
 }
@@ -194,7 +195,7 @@ a.contact-a:hover img {
 
     section.content {
         padding: 8% 10%;
-        /* min-height: 65vh; */
+        min-height: 69vh;
     }
 
     h2.under-construction-desktop {
