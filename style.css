@@ -62,7 +62,7 @@ div.content-container {
 h2.under-construction-mob,
 h2.under-construction-desktop {
     font-family: 'Audiowide', cursive;
-    font-weight: normal;
+    font-weight: 400;
     color: white;
     text-align: center;
 }
@@ -169,7 +169,7 @@ a.contact-a:hover img {
     h4.contact-link {
         display: inline-block;
         font-family: 'Lato', sans-serif;
-        font-weight: normal;
+        font-weight: 400;
         color: white;
     }
 
