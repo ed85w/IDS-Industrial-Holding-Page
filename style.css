@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 30vh;
+    padding: 15px;
+}
+
+.header-container {
+    height: fit-content;
+    /* border: 1px solid; */
+    align-self: center;
+}
+
+img.logo {
+    width: 100%;
+    height: auto;
+}
+
+h4.company-tagline {
+    font-family: 'Lato', sans-serif;
+    font-size: 4vw;
+    color: rgb(42, 75, 155);
+    text-align: center;
+    padding: 10px 20px 30px 20px;
+}
+
+section.content {
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 70vh;
+    background: 
+        /* top, transparent red */ 
+        linear-gradient(
+        rgba(42, 75, 155, 0.85), 
+        rgba(42, 75, 155, 0.85)
+        ),
+        /* bottom, image */
+        url(./img/Greece-Refinery.jpg);
+    background-size: cover;
+    padding: 28% 18% 10% 18%;
+}
+
+div.content-container {
+    /* border: 1px solid red; */
+    position: relative;
+    min-height: 250px;
+}
+
+h2.under-construction-mob,
+h2.under-construction-desktop {
+    font-family: 'Audiowide', cursive;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+h2.under-construction-mob {
+    padding-bottom: 30px;
+}
+
+h2.under-construction-desktop {
+    display: none;
+}
+
+.dots-container {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.dot {
+    display: inline-block;
+    height: 17px;
+    width: 17px;
+    margin: 4px;
+    border-radius: 50%;
+    background: #ffd400;
+}
+
+div.contact-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+img.contact-icon {
+    display: inline-block;
+    width: 35px;
+    height: auto;
+    margin: 20px;
+}
+
+h4.contact-link {
+    display: none;
+}
+
+a.contact-a {
+    text-decoration: none;
+}
+
+a.contact-a:hover h4{
+    color: black;
+}
+a.contact-a:hover img {
+    filter: brightness(0)
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    img.logo {
+        width: 260px;
+        position: relative;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+
+    h4.company-tagline {
+        font-size: 18px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    img.logo {
+        width: 300px;
+    }
+
+    section.content {
+        padding: 200px 10% 100px 10%;
+    }
+
+    h2.under-construction-mob {
+        display: none;
+    }
+
+    h2.under-construction-desktop {
+        display: block;
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    h4.company-tagline {
+        font-size: 16px;
+    }
+
+    a.contact-a {
+        display: flex;
+        align-items: center;
+    }
+
+    img.contact-icon {
+        margin-right: 15px;
+    }
+
+    h4.contact-link {
+        display: inline-block;
+        font-family: 'Lato', sans-serif;
+        font-weight: normal;
+        color: white;
+    }
+
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+    header {
+        padding-top: 0;
+        padding-bottom: 0;
+        /* min-height: 25vh; */
+    }
+
+    img.logo {
+        width: 450px;
+    }
+
+    section.content {
+        padding: 8% 10%;
+        /* min-height: 65vh; */
+    }
+
+    h2.under-construction-desktop {
+        font-size: 50px;
+    }
+
+    h4.company-tagline {
+        font-size: 24px;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
