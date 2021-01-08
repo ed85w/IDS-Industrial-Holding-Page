@@ -19,12 +19,12 @@ header {
 
 .header-container {
     height: fit-content;
-    /* border: 1px solid; */
     align-self: center;
+    text-align: center;
 }
 
 img.logo {
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 
@@ -125,9 +125,9 @@ a.contact-a:hover img {
 @media (min-width: 576px) {
     img.logo {
         width: 260px;
-        position: relative;
+        /* position: relative;
         transform: translateX(-50%);
-        left: 50%;
+        left: 50%; */
     }
 
     h4.company-tagline {
