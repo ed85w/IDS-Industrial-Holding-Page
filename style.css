@@ -55,7 +55,7 @@ section.content {
         /* bottom, image */
         url(./img/Greece-Refinery.jpg);
     background-size: cover;
-    padding: 80px 15% 0 15%
+    padding: 70px 20% 5% 20%
 }
 
 div.content-container {
@@ -74,7 +74,7 @@ h2.under-construction-desktop {
 
 h2.under-construction-mob {
     padding-bottom: 30px;
-    font-size: 9vw;
+    font-size: 8vw;
 }
 
 h2.under-construction-desktop {
@@ -131,6 +131,10 @@ a.contact-a:hover img {
 @media (min-width: 576px) {
     img.logo {
         width: 260px;
+    }
+
+    section.content {
+        min-height: 500px;
     }
 
     h2.under-construction-mob {
