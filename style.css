@@ -55,7 +55,7 @@ section.content {
         /* bottom, image */
         url(./img/Greece-Refinery.jpg);
     background-size: cover;
-    padding: 25% 18% 5% 18%;
+    padding: 80px 55px 5% 55px;
 }
 
 div.content-container {
@@ -99,7 +99,7 @@ div.contact-container {
     display: flex;
     justify-content: center;
     width: 100%;
-    bottom: 5px;
+    bottom: 15%;
     left: 0;
     text-align: center;
 }
@@ -146,6 +146,7 @@ a.contact-a:hover img {
 
     section.content {
         padding: 200px 10% 100px 10%;
+        min-height: 500px;
     }
 
     h2.under-construction-mob {
