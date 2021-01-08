@@ -55,7 +55,7 @@ section.content {
         /* bottom, image */
         url(./img/Greece-Refinery.jpg);
     background-size: cover;
-    padding: 70px 20% 5% 20%
+    padding: 70px 20% 0 20%
 }
 
 div.content-container {
