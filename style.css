@@ -205,7 +205,7 @@ a.contact-a:hover img {
 
     section.content {
         padding: 8% 10%;
-        min-height: 69vh;
+        /* min-height: 69vh; */
     }
 
     h2.under-construction-desktop {
