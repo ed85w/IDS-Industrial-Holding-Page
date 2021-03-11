@@ -121,10 +121,10 @@ a.contact-a {
 }
 
 a.contact-a:hover h4{
-    color: black;
+    color: #ffd400;
 }
 a.contact-a:hover img {
-    filter: brightness(0)
+    filter: brightness(0) saturate(100%)invert(82%) sepia(41%) saturate(1683%) hue-rotate(358deg) brightness(101%) contrast(104%);
 }
 
 /* Small devices (landscape phones, 576px and up) */
